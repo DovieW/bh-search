@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Right Click B&H Search",
+  "description": "Right click to search highlighted text on B&H Photo",
+  "version": "0.1.0",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "bhSearch16.png",
+    "48": "bhSearch48.png",
+   "128": "bhSearch128.png"
+  }
+}
